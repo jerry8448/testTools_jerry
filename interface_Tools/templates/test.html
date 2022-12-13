@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>接口测试工具</title>
+    <link rel="stylesheet" href="/static/css/jquery-ui.css">
+    <link rel="stylesheet" href="/static/css/picnic.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/mycss.css">
+    <script src="/static/js/jquery-3.5.1.js"></script>
+    <script src="/static/js/jquery-ui.js"></script>
+    <script src="/static/js/bootstrap.bundle.min.js "></script>
+    <script src="/static/js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.0/dist/echarts.js"></script>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+
+
+<body>
+    <div class="container-fluid">
+        <div class="col-md-12">
+        <div class="row top-buffer">
+            <div class="col-md-3 ">
+                <div id="tabs" style="height: 100%;">
+                    <ul class="history">
+                      <li><a href="#tabs-1">History</a></li>
+                      <li><a href="#tabs-2">Locust</a></li>
+                    </ul>
+                    <div id="tabs-1"class="col-md-12">
+                        <div class="col-md-12 his_list">
+                            <div class="list-group">
+                               
+                              </div>
+                            
+                        </div>
+                      </div>
+                    <div id="tabs-2">
+                        <input type="file" accept=".py">
+                      </div>
+                  </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-2">
+                        <select name="method" id="method">
+                            <option value="GET">GET</option>
+                            <option value="POST">POST</option>
+                            <option value="WS">WS</option>
+                        </select>
+                    </div>
+                    <div class="col-md-5">
+                        <input type="text" class="test_url">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="description">
+                    </div>
+                    <div class="col-md-2">
+                        <button  class="success send">Send</button>
+                    </div>
+                </div>
+                <div class="row top-buffer">
+                    <div class="col-md-12 main">
+                        <div class="tabs three">
+                            <input id='tab-1' type='radio' name='tabgroupB' checked />
+                            <label class="pseudo button toggle headerStatus" for="tab-1">Headers</label>
+                            <input id='tab-2' type='radio' name='tabgroupB'>
+                            <label class="pseudo button toggle bodyStatus" for="tab-2">Bodys</label>
+                            <input id='tab-3' type='radio' name='tabgroupB'>
+                            <label class="pseudo button toggle cookieStatus" for="tab-3">Cookies</label>
+                            <div class="row">
+                              <div class="col-md-12 row-same-height headers">
+                              </div>
+                          
+                              <div class="col-md-12 row-same-height bodys">
+                                
+                              </div>
+                          
+                              <div class="col-md-12 row-same-height cookies">
+                            
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row top-buffer">
+                    <div class="col-md-12 " style="text-align:center;">
+                        <button class="search">查询</button>
+                        <button class="success add">增加</button>
+                        <button class="error delete">删除</button>
+                        <button class="warning clear">清空</button>
+                        <button class="save">保存</button>
+                    </div>
+                </div>
+                    
+                
+                <div class="row top-buffer">
+                    <div class="col-md-12">
+                        <textarea name="textareass" id="textareass" cols="10" rows="18"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="/static/js/interface_tool.js"></script>
+</body>
+
+</html>

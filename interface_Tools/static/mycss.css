@@ -1,0 +1,96 @@
+
+/* .selector-for-some-widget {
+    box-sizing: content-box;
+  } */
+
+/* div {
+    width: 500px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.textbox1{
+  border: 1px solid blue;
+}
+
+.textbox2{
+  display: none;
+  border: 1px solid yellow;
+}
+
+.textbox3{
+  display: none;
+  border: 1px solid black;
+}
+ */
+
+ .top-buffer { margin-top:10px; }
+ .mid-buffer { 
+    margin-top:5px;
+    
+         }
+/* .sml-buffer{
+  margin:0 2px;
+} */
+
+ #main{
+  height: 500px;
+  /* width: 80%; */
+ }
+
+ .sandbox-container input{
+  width: 200px;
+ }
+
+ .text input{
+  width: 200px;
+ }
+
+div .interval{
+  padding-bottom: 20px;
+}
+
+.interval button{
+  margin-right: 20px;
+}
+
+#lables{
+  list-style-type: none;
+}
+
+.row-same-height {
+  height: 200px;
+  border: 1px solid #aaa;
+  border-radius: 0.2em;
+  padding: 0px 5px;
+}
+
+button{
+  border-radius: 0.2em;
+}
+
+#tabs-1{
+  padding: 5px;
+}
+
+.his_list{
+  padding: 0px;
+}
+
+div.list-group a{
+  padding: 20px 5px;
+}
+
+div.list-group a span.url{
+  white-space: nowrap;
+  display:inline-block;
+  width:250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align:middle;
+}
+
+div.list-group a span.method{
+  margin-right: 5px;
+  
+}
